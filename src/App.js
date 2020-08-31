@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
 import Home from './Home'
+import Header from './Header'
 
 function App() {
   return (
 
     //BEM
     <div className="app">
-        <h1>Hello, Let's build AIRBNB clone <span>🚀</span></h1>
         {/* Home */}
+        <Header/>
         <Home/>
             {/* Header */}
 
